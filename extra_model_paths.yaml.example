@@ -4,44 +4,42 @@
 #config for a1111 ui
 #all you have to do is change the base_path to where yours is installed
 a111:
-    base_path: path/to/stable-diffusion-webui/
+    base_path: D:\ComfyUI
 
-    checkpoints: models/Stable-diffusion
-    configs: models/Stable-diffusion
-    vae: models/VAE
+    checkpoints: D:\ComfyUI\models
+    configs: D:\ComfyUI\models\configs
+    vae: D:\ComfyUI\models\vae
     loras: |
-         models/Lora
-         models/LyCORIS
+         D:\ComfyUI\models\loras
+         D:\ComfyUI\models\loras
     upscale_models: |
-                  models/ESRGAN
-                  models/RealESRGAN
-                  models/SwinIR
-    embeddings: embeddings
-    hypernetworks: models/hypernetworks
-    controlnet: models/ControlNet
+                  D:\ComfyUI\models\upscale_models
+    embeddings: D:\ComfyUI\models\embeddings
+    hypernetworks: D:\ComfyUI\models\hypernetworks
+    controlnet: D:\ComfyUI\models\controlnet
 
 #config for comfyui
 #your base path should be either an existing comfy install or a central folder where you store all of your models, loras, etc.
 
 #comfyui:
-#     base_path: path/to/comfyui/
+#     base_path: D:\ComfyUI
 #     # You can use is_default to mark that these folders should be listed first, and used as the default dirs for eg downloads
 #     #is_default: true
-#     checkpoints: models/checkpoints/
-#     clip: models/clip/
-#     clip_vision: models/clip_vision/
-#     configs: models/configs/
-#     controlnet: models/controlnet/
+#     checkpoints: D:\ComfyUI\models\checkpoints
+#     clip: D:\ComfyUI\models\clip
+#     clip_vision: D:\ComfyUI\models\clip_vision
+#     configs: D:\ComfyUI\models\configs
+#     controlnet: D:\ComfyUI\models\controlnet
 #     diffusion_models: |
-#                  models/diffusion_models
-#                  models/unet
-#     embeddings: models/embeddings/
-#     loras: models/loras/
-#     upscale_models: models/upscale_models/
-#     vae: models/vae/
+#                  D:\ComfyUI\models\diffusion_models
+#                  D:\ComfyUI\models\unet
+#     embeddings: D:\ComfyUI\models\embeddings
+#     loras: D:\ComfyUI\models\loras
+#     upscale_models: D:\ComfyUI\models\upscale_models
+#     vae: D:\ComfyUI\models\vae
 
 #other_ui:
-#    base_path: path/to/ui
-#    checkpoints: models/checkpoints
-#    gligen: models/gligen
-#    custom_nodes: path/custom_nodes
+#    base_path: D:\ComfyUI
+#    checkpoints: D:\ComfyUI\models\checkpoints
+#    gligen: D:\ComfyUI\models\gligen
+#    custom_nodes: D:\ComfyUI\custom_nodes
